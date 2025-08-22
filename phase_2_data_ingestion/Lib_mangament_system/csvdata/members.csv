@@ -1,0 +1,5 @@
+member_id,first_name,last_name,email,phone,member_type,registration_date
+1,John,Doe,john.doe@gmail.com,123-456-7890,student,2020-01-13
+2,Mary,Smith,mary.smith@gmail.com,555-987-6543,faculty,2021-05-10
+3,Tom,O'Neil,tom.oneil@yahoo.com,123-456-789,student,11-30-19
+4,Linda,Brown,linda.brown@gmail.com,(555) 111-2222,faculty,2019-11-30

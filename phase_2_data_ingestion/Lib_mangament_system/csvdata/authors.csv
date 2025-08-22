@@ -1,0 +1,6 @@
+author_id,first_name,last_name,birth_date,nationality,biography
+1,F. Scott,Fitzgerald,1896-09-24,American,"Author of The Great Gatsby"
+2,Harper,Lee,1926-04-28,American,"Author of To Kill a Mockingbird"
+3,George,Orwell,1903-06-25,British,"Author of 1984"
+4,Herman,Melville,1819-08-01,American,"Author of Moby Dick"
+5,Jane,Austen,invalid-date,British,"Author of Pride and Prejudice"

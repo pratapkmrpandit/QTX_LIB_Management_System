@@ -1,0 +1,1 @@
+python data_processor.py --directory "../csvdata" --db mysql+pymysql://root:Office%409087@localhost:3306/library_db --log-level INFO
