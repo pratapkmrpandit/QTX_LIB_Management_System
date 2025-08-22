@@ -1,6 +1,0 @@
-member_id,first_name,last_name,email,phone,member_type,registration_date
-1,John,Doe,john.doe@gmail,123-456-789,Student,2020-13-01
-2, jane,smith,jane.smith@gmail.com,(555) 123 4567,Faculty,05-10-21
-3,Bob,K.,bob.k@@yahoo.com,555123456,Student,
-4,Alice, Johnson ,alice.johnson@gmail.com,+1 555-999-8888,Student,02-15-20
-5,Tom,O'Neil,tom.oneil@yahoo,555-321-7890,Faculty,11-30-19

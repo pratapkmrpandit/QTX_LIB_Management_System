@@ -1,6 +1,0 @@
-book_id,title,isbn,publication_date,total_copies,available_copies,library_id
-1,The Great Gatsby,978-3-16-148410-0,1925-04-10,10,7,1
-2,To Kill a Mockingbird,9783161484100,1960/07/11,15,10,1
-3,1984,978-0-452-28423-4,1949-13-08,12,5,2
-4,Moby Dick,123456789X,1851-11-14,8,2,3
-5,The Great Gatsby,978-3-16-148410-0,1925-04-10,10,7,1
