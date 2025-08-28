@@ -73,28 +73,30 @@ def main():
         authors_df = process_csv(os.path.join(args.directory, 'authors.csv'))
         for _, row in authors_df.iterrows():
             try:
-                author_data = AuthorSchema(**row.to_dict())
+                author_data = AuthorSchema(**row.to_dict()) 
+                # checking for existing author by name
                 if not session.query(Author).filter_by(first_name=author_data.first_name, last_name=author_data.last_name).first():
-                    session.add(Author(**author_data.dict()))
+                    session.add(Author(**author_data.dict()))  # if not found add new author
                     summary['authors'] += 1
             except Exception as e:
                 logging.error(f"Author row skipped: {e}")
-                summary['errors'] += 1
+                summary['errors'] += 1                  # if there is an error then it count the error
 
         # Members
         members_df = process_csv(os.path.join(args.directory, 'members.csv'))
         for _, row in members_df.iterrows():
             try:
                 member_data = MemberSchema(**row.to_dict())
+                # checking for existing member by email
                 if not session.query(Member).filter_by(email=member_data.email).first():
-                    session.add(Member(**member_data.dict()))
+                    session.add(Member(**member_data.dict()))   # if not found add new member
                     summary['members'] += 1
             except Exception as e:
                 logging.error(f"Member row skipped: {e}")
                 summary['errors'] += 1
 
         session.commit()
-        logging.info(f"ETL completed: {summary}")
+        logging.info(f"ETL completed: {summary}")  #display the summary of successful and failed records
     except Exception as e:
         session.rollback()
         logging.error(f"ETL failed: {e}")

@@ -3,3 +3,9 @@ library_id,name,campus_location,contact_email,phone_number
 2,West End Library,West Campus,westendlibrary@yahoo.com,(555) 123-4567
 3,North Branch,North Campus,northbranch@@mail.com,+1 (555) 222-3333
 4,South Branch,South Campus,south.library@mail.com,555.444.5555
+5,east-south branch,east-south campus,east-south@email.com,1234567890
+6,central-east branch,central-east campus,central-east@gmail.com,123-321-4321
+7,west-central branch,west-central campus,west-central@gmail.com,2345.234.231
+8,north-central Library,north-central campus,north-central@@email.com,+1 (555) 222-3333
+9,south-cental Library,south-central campus,south-central@gmail.com,9876543210
+10,central-hindu library,central campus,cental-hindu@gmail.com,9.87654E+12

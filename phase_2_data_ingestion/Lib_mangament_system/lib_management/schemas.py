@@ -1,9 +1,9 @@
-from pydantic import BaseModel, field_validator, EmailStr
+from pydantic import BaseModel, field_validator, EmailStr , model_validator
 from typing import Optional
 from datetime import datetime
 import re
 
-# ---------- Library Schema ----------
+# Library Schema 
 class LibrarySchema(BaseModel):
     library_id: int
     name: str
@@ -25,7 +25,7 @@ class LibrarySchema(BaseModel):
         return f"+1-{digits[-10:-7]}-{digits[-7:-4]}-{digits[-4:]}"
 
 
-# ---------- Book Schema ----------
+# Book Schema
 class BookSchema(BaseModel):
     book_id: int
     title: str
@@ -35,32 +35,43 @@ class BookSchema(BaseModel):
     available_copies: int
     library_id: int
 
-    # Normalize title
+    # normalize title
     @field_validator("title")
     def normalize_title(cls, v):
         return v.strip().title()
 
-    # Validate ISBN
+    # Validate isbn
     @field_validator("isbn")
     def validate_isbn(cls, v):
         if not re.match(r"^\d{10}(\d{3})?$", v.replace("-", "")):
             raise ValueError("Invalid ISBN format")
         return v
 
-    # Validate and format date (YYYY-MM-DD)
+    # validate and format date (expects DD-MM-YY input, converts to YYYY-MM-DD)
     @field_validator("publication_date")
     def validate_pub_date(cls, v):
         try:
-            # If input is already a date object, convert to string
             if isinstance(v, datetime):
                 return v.strftime("%Y-%m-%d")
-            datetime.strptime(v, "%Y-%m-%d")
-            return v
+            parsed_date = datetime.strptime(v, "%d-%m-%y")
+            return parsed_date.strftime("%Y-%m-%d")
         except ValueError:
-            raise ValueError("Invalid date format, expected YYYY-MM-DD")
+            raise ValueError("Invalid date format, expected DD-MM-YY in input, converted to YYYY-MM-DD")
+
+    # checking available_copies and total_copies are not negative
+    @model_validator(mode="after")
+    def validate_copies(cls, v):
+        if v.available_copies < 0:
+            raise ValueError("available copies is less than 0")
+        if v.total_copies < 0:
+            raise ValueError("total copies is less than 0")
+        if v.available_copies > v.total_copies:
+            raise ValueError("available copies cannot exceed total copies")
+        return v
 
 
-# ---------- Author Schema ----------
+
+# Author Schema 
 class AuthorSchema(BaseModel):
     author_id: int
     first_name: str
@@ -86,7 +97,7 @@ class AuthorSchema(BaseModel):
             raise ValueError("Invalid date format, expected YYYY-MM-DD")
 
 
-# ---------- Member Schema ----------
+#  Member Schema
 class MemberSchema(BaseModel):
     member_id: int
     first_name: str

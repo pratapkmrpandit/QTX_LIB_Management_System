@@ -6,7 +6,7 @@ create table Library(
     name varchar(100) not null,
     campus_location varchar(100) ,
     contact_email varchar(100) unique not null ,
-    phone_number varchar(10) ,
+    phone_number varchar(15) ,
     created_at timestamp default current_timestamp,
     updated_at timestamp default current_timestamp
 );
@@ -63,8 +63,8 @@ create table Member(
     member_id int primary key auto_increment,
     first_name varchar(100) not null,
     last_name varchar(100) not null,
-    email varchar(100) not null,
-    phone varchar(10) not null,
+    email varchar(100) unique not null,
+    phone varchar(15) not null,
     member_type varchar(20) check(member_type in ('Student','Faculty')),
     registration_date date,
     created_at timestamp default current_timestamp,
