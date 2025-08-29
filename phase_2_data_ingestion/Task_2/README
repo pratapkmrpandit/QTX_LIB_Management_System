@@ -1,0 +1,1 @@
+python -m lib_management.api_fetcher --author "Charles Dickens" --limit 20 --db mysql+pymysql://root:Office%409087@localhost:3306/check_task_2 --output openlibrary_data.json
