@@ -23,7 +23,6 @@ class OpenApiClient:
 
     def author_search(self,author_name):
         data=self._get(f"/search/authors.json?q={author_name}")           #call private method _get
-        print(data)
         if data or "docs" in data or data["docs"]:                        # checking docs is in data which is fetched
             return data["docs"][0]
         return None
@@ -42,5 +41,7 @@ class OpenApiClient:
         return works[:limit]                                       # return only up to the limit
 
     def book_detail(self,work_key):
-        data=self._get(f"/works/{work_key}.json")
-        return data
+        data=self._get(f"/works/{work_key}/editions.json")
+        if data:
+            return data["entries"]
+        return []
