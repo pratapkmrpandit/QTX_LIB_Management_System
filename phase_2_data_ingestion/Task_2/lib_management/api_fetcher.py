@@ -90,7 +90,6 @@ def main():
             existing_book = session.query(Book).filter(
                 Book.title == title, Book.author_id == db_author.author_id
             ).first()
-            print(existing_book)
             if existing_book:
                 existing_book.available_copies += 1           # if book already exists increment the available copies and total copies
                 existing_book.total_copies += 1
