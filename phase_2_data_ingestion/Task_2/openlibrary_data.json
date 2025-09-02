@@ -1,64 +1,43 @@
 {
     "author": {
         "alternate_names": [
-            "Joanne Rowling",
-            "Joanne K. Rowling",
-            "Jo Murray",
-            "Kennilworthy Whisp",
-            "JK Rowling",
-            "Robert Galbraith",
-            "\u0414\u0436\u043e\u0430\u043d \u0420\u043e\u0443\u043b\u0456\u043d\u0433",
-            "Dzhoan Rouling",
-            "J.K. Rowling",
-            "ROWLING",
-            "\u0631\u0648\u0628\u0631\u062a \u063a\u0627\u0644\u0628\u0631\u064a\u062b - Robert Galbraith",
-            "Rouling Dzh.K.",
-            "Newt Scamander",
-            "Newton Scamander",
-            "J. K Rowling (creator) Jack Thorne",
-            "J.k. Rowling",
-            "Rowling.J.K.",
-            "J K Rowling",
-            "J. K Rowling",
-            "J-K Rowling",
-            "Joanne K Rowling",
-            "J. K. ROWLING",
-            "JK.Rowling",
-            "J. K. Rowling Miles",
-            "K. Rowling Joanne,K.Rowling",
-            "J. K. J.K. Rowling"
+            "Humayun, Kabir",
+            "Humayun Kabir.",
+            "Kabir Humayun",
+            "HUMAYUN KABIR"
         ],
-        "birth_date": "31 July 1965",
-        "key": "OL23919A",
-        "name": "J. K. Rowling",
+        "birth_date": "1906",
+        "death_date": "1969",
+        "key": "OL645A",
+        "name": "Humayun Kabir",
         "top_subjects": [
-            "Magic",
-            "Wizards",
-            "Juvenile fiction",
-            "Fiction",
-            "England",
-            "Children's fiction",
-            "Fantasy fiction",
-            "Wizards, fiction",
-            "Schools",
-            "Hogwarts School of Witchcraft and Wizardry (Imaginary place)"
+            "India",
+            "Education",
+            "Politics and government",
+            "Philosophy",
+            "History and criticism",
+            "Muslims",
+            "Humayun Kabir (1906-1969)",
+            "Civilization",
+            "United States",
+            "Rabindranath Tagore (1861-1941)"
         ],
-        "top_work": "Harry Potter and the Philosopher's Stone",
+        "top_work": "The Indian heritage",
         "type": "author",
-        "work_count": 420,
-        "ratings_average": 4.212189,
-        "ratings_sortable": 4.179796,
-        "ratings_count": 3577,
-        "ratings_count_1": 202,
-        "ratings_count_2": 86,
-        "ratings_count_3": 444,
-        "ratings_count_4": 864,
-        "ratings_count_5": 1981,
-        "want_to_read_count": 42348,
-        "already_read_count": 6413,
-        "currently_reading_count": 3442,
-        "readinglog_count": 52203,
-        "_version_": 1840263422776705027
+        "work_count": 44,
+        "ratings_average": 5.0,
+        "ratings_sortable": 2.4036636,
+        "ratings_count": 1,
+        "ratings_count_1": 0,
+        "ratings_count_2": 0,
+        "ratings_count_3": 0,
+        "ratings_count_4": 0,
+        "ratings_count_5": 1,
+        "want_to_read_count": 5,
+        "already_read_count": 1,
+        "currently_reading_count": 1,
+        "readinglog_count": 7,
+        "_version_": 1835482778584481793
     }
 }/n/n{
     "author": [
@@ -66,14 +45,372 @@
             "type": {
                 "key": "/type/work"
             },
-            "title": "Harry Potter",
+            "title": "India and federalism",
+            "subjects": [
+                "Federal government"
+            ],
+            "subject_places": [
+                "India"
+            ],
             "authors": [
                 {
                     "type": {
                         "key": "/type/author_role"
                     },
                     "author": {
-                        "key": "/authors/OL23919A"
+                        "key": "/authors/OL645A"
+                    }
+                }
+            ],
+            "key": "/works/OL43890424W",
+            "latest_revision": 1,
+            "revision": 1,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2025-08-15T08:38:54.793134"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-08-15T08:38:54.793134"
+            }
+        },
+        {
+            "type": {
+                "key": "/type/work"
+            },
+            "title": "Green and Gold",
+            "authors": [
+                {
+                    "type": {
+                        "key": "/type/author_role"
+                    },
+                    "author": {
+                        "key": "/authors/OL645A"
+                    }
+                }
+            ],
+            "key": "/works/OL43064823W",
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2025-04-27T08:37:32.722261"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-06-20T20:52:57.170835"
+            }
+        },
+        {
+            "type": {
+                "key": "/type/work"
+            },
+            "title": "Student Indiscipline",
+            "authors": [
+                {
+                    "type": {
+                        "key": "/type/author_role"
+                    },
+                    "author": {
+                        "key": "/authors/OL645A"
+                    }
+                }
+            ],
+            "key": "/works/OL43322823W",
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2025-05-11T00:28:27.162202"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-06-20T20:52:57.170835"
+            }
+        },
+        {
+            "type": {
+                "key": "/type/work"
+            },
+            "title": "Mana Vaarasatvamu",
+            "subjects": [
+                "-"
+            ],
+            "authors": [
+                {
+                    "type": {
+                        "key": "/type/author_role"
+                    },
+                    "author": {
+                        "key": "/authors/OL645A"
+                    }
+                }
+            ],
+            "key": "/works/OL43269995W",
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2025-05-07T08:44:04.140329"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-06-20T20:52:57.170835"
+            }
+        },
+        {
+            "type": {
+                "key": "/type/work"
+            },
+            "title": "MAHATMA AND OTHER POEMS",
+            "authors": [
+                {
+                    "type": {
+                        "key": "/type/author_role"
+                    },
+                    "author": {
+                        "key": "/authors/OL645A"
+                    }
+                }
+            ],
+            "key": "/works/OL43077961W",
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2025-04-27T12:03:21.161374"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-06-20T20:52:57.170835"
+            }
+        },
+        {
+            "type": {
+                "key": "/type/work"
+            },
+            "title": "Britain And India",
+            "authors": [
+                {
+                    "type": {
+                        "key": "/type/author_role"
+                    },
+                    "author": {
+                        "key": "/authors/OL645A"
+                    }
+                }
+            ],
+            "key": "/works/OL43211776W",
+            "subjects": [
+                "Relations"
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2025-05-02T10:11:53.182304"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-07-17T13:39:29.092174"
+            }
+        },
+        {
+            "type": {
+                "key": "/type/work"
+            },
+            "title": "The Bengali novel;",
+            "authors": [
+                {
+                    "type": {
+                        "key": "/type/author_role"
+                    },
+                    "author": {
+                        "key": "/authors/OL645A"
+                    }
+                }
+            ],
+            "key": "/works/OL33679113W",
+            "covers": [
+                14882350
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-01-14T02:38:07.589979"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-06-20T20:52:57.170835"
+            }
+        },
+        {
+            "type": {
+                "key": "/type/work"
+            },
+            "title": "Bharatiya Samskrti Parampare",
+            "authors": [
+                {
+                    "type": {
+                        "key": "/type/author_role"
+                    },
+                    "author": {
+                        "key": "/authors/OL645A"
+                    }
+                }
+            ],
+            "key": "/works/OL43211595W",
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2025-05-02T10:08:50.057298"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-06-20T20:52:57.170835"
+            }
+        },
+        {
+            "type": {
+                "key": "/type/work"
+            },
+            "title": "Science, Democracy and Islam",
+            "subjects": [
+                "Political science",
+                "Philosophy"
+            ],
+            "authors": [
+                {
+                    "type": {
+                        "key": "/type/author_role"
+                    },
+                    "author": {
+                        "key": "/authors/OL645A"
+                    }
+                }
+            ],
+            "key": "/works/OL34020047W",
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-01-17T03:44:49.320785"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-06-20T20:52:57.170835"
+            }
+        },
+        {
+            "type": {
+                "key": "/type/work"
+            },
+            "title": "Education in New India",
+            "authors": [
+                {
+                    "type": {
+                        "key": "/type/author_role"
+                    },
+                    "author": {
+                        "key": "/authors/OL645A"
+                    }
+                }
+            ],
+            "key": "/works/OL43079017W",
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2025-04-27T12:21:56.361109"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-06-20T20:52:57.170835"
+            }
+        },
+        {
+            "type": {
+                "key": "/type/work"
+            },
+            "title": "Green and gold",
+            "authors": [
+                {
+                    "type": {
+                        "key": "/type/author_role"
+                    },
+                    "author": {
+                        "key": "/authors/OL645A"
+                    }
+                }
+            ],
+            "key": "/works/OL35295275W",
+            "covers": [
+                14973511
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-05-04T02:50:17.972491"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-06-20T20:52:57.170835"
+            }
+        },
+        {
+            "type": {
+                "key": "/type/work"
+            },
+            "title": "An Indian looks at American education",
+            "subjects": [
+                "Education"
+            ],
+            "subject_places": [
+                "United States"
+            ],
+            "authors": [
+                {
+                    "type": {
+                        "key": "/type/author_role"
+                    },
+                    "author": {
+                        "key": "/authors/OL645A"
+                    }
+                }
+            ],
+            "key": "/works/OL43402415W",
+            "latest_revision": 1,
+            "revision": 1,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2025-05-16T15:36:08.855306"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-05-16T15:36:08.855306"
+            }
+        },
+        {
+            "type": {
+                "key": "/type/work"
+            },
+            "title": "Science and state",
+            "subjects": [
+                "Science and state"
+            ],
+            "subject_places": [
+                "India"
+            ],
+            "authors": [
+                {
+                    "type": {
+                        "key": "/type/author_role"
+                    },
+                    "author": {
+                        "key": "/authors/OL645A"
                     }
                 },
                 {
@@ -81,900 +418,253 @@
                         "key": "/type/author_role"
                     },
                     "author": {
-                        "key": "/authors/OL14436513A"
+                        "key": "/authors/OL5442211A"
                     }
                 }
             ],
-            "key": "/works/OL40370366W",
-            "latest_revision": 2,
-            "revision": 2,
+            "key": "/works/OL42677365W",
+            "latest_revision": 1,
+            "revision": 1,
             "created": {
                 "type": "/type/datetime",
-                "value": "2024-09-24T02:45:37.917466"
+                "value": "2025-03-05T21:17:26.068912"
             },
             "last_modified": {
                 "type": "/type/datetime",
-                "value": "2025-06-21T18:08:44.104415"
+                "value": "2025-03-05T21:17:26.068912"
             }
         },
         {
             "type": {
                 "key": "/type/work"
             },
-            "title": "Harry Potter en Die Orde Van Die Feniks [AFRIKAANS]",
+            "title": "Rabindranath Tagore",
+            "subject_people": [
+                "Rabindranath Tagore (1861-1941)"
+            ],
             "authors": [
                 {
                     "type": {
                         "key": "/type/author_role"
                     },
                     "author": {
-                        "key": "/authors/OL23919A"
+                        "key": "/authors/OL645A"
                     }
                 }
             ],
-            "key": "/works/OL42546502W",
-            "latest_revision": 2,
-            "revision": 2,
+            "key": "/works/OL42307250W",
+            "latest_revision": 1,
+            "revision": 1,
             "created": {
                 "type": "/type/datetime",
-                "value": "2025-02-17T01:55:14.330986"
+                "value": "2024-12-30T03:19:55.166535"
             },
             "last_modified": {
                 "type": "/type/datetime",
-                "value": "2025-06-21T18:08:44.104415"
+                "value": "2024-12-30T03:19:55.166535"
             }
         },
         {
             "type": {
                 "key": "/type/work"
             },
-            "title": "Fantastic Beasts and Where to Find Them",
+            "title": "Maulana Abul Kalam Azad",
+            "subject_people": [
+                "Ab\u016blkal\u0101m \u0100z\u0101d (1888-1958)"
+            ],
             "authors": [
                 {
                     "type": {
                         "key": "/type/author_role"
                     },
                     "author": {
-                        "key": "/authors/OL23919A"
+                        "key": "/authors/OL645A"
                     }
                 }
             ],
-            "key": "/works/OL40716312W",
-            "latest_revision": 2,
-            "revision": 2,
+            "key": "/works/OL38466711W",
+            "latest_revision": 1,
+            "revision": 1,
             "created": {
                 "type": "/type/datetime",
-                "value": "2024-09-26T18:00:16.313120"
+                "value": "2024-07-12T10:27:07.931921"
             },
             "last_modified": {
                 "type": "/type/datetime",
-                "value": "2025-06-21T18:08:44.104415"
+                "value": "2024-07-12T10:27:07.931921"
             }
         },
         {
             "type": {
                 "key": "/type/work"
             },
-            "title": "Harry Potter en Die Halfbloed Prins [AFRIKAANS]",
+            "title": "Self-reform in schools",
+            "subjects": [
+                "Education"
+            ],
+            "subject_places": [
+                "India"
+            ],
             "authors": [
                 {
                     "type": {
                         "key": "/type/author_role"
                     },
                     "author": {
-                        "key": "/authors/OL23919A"
+                        "key": "/authors/OL645A"
                     }
                 }
             ],
-            "key": "/works/OL42546504W",
-            "latest_revision": 2,
-            "revision": 2,
+            "key": "/works/OL35556069W",
+            "latest_revision": 1,
+            "revision": 1,
             "created": {
                 "type": "/type/datetime",
-                "value": "2025-02-17T01:55:14.921062"
+                "value": "2023-05-27T14:56:47.189418"
             },
             "last_modified": {
                 "type": "/type/datetime",
-                "value": "2025-06-21T18:08:44.104415"
+                "value": "2023-05-27T14:56:47.189418"
             }
         },
         {
             "type": {
                 "key": "/type/work"
             },
-            "title": "Harry Potter",
+            "title": "Student indiscipline",
+            "subjects": [
+                "Students",
+                "Teachers"
+            ],
+            "subject_places": [
+                "India"
+            ],
             "authors": [
                 {
                     "type": {
                         "key": "/type/author_role"
                     },
                     "author": {
-                        "key": "/authors/OL23919A"
+                        "key": "/authors/OL645A"
                     }
                 }
             ],
-            "key": "/works/OL38186238W",
+            "key": "/works/OL35556068W",
+            "latest_revision": 1,
+            "revision": 1,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-05-27T14:56:46.666511"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-05-27T14:56:46.666511"
+            }
+        },
+        {
+            "subject_places": [
+                "Burma",
+                "Kachin State"
+            ],
+            "subjects": [
+                "Agriculture",
+                "Study and teaching",
+                "Activity programs",
+                "Sustainable agriculture"
+            ],
+            "key": "/works/OL23209194W",
+            "title": "Six years of farmer field school in Myanmar",
+            "authors": [
+                {
+                    "type": {
+                        "key": "/type/author_role"
+                    },
+                    "author": {
+                        "key": "/authors/OL645A"
+                    }
+                }
+            ],
+            "type": {
+                "key": "/type/work"
+            },
             "latest_revision": 2,
             "revision": 2,
             "created": {
                 "type": "/type/datetime",
-                "value": "2024-06-18T12:09:16.501613"
+                "value": "2020-11-13T04:09:10.044986"
             },
             "last_modified": {
                 "type": "/type/datetime",
-                "value": "2025-06-21T18:08:44.104415"
+                "value": "2022-12-29T19:34:22.090583"
             }
         },
         {
-            "type": {
-                "key": "/type/work"
-            },
-            "title": "Harry Potter en Die Skatte Van Die Dood [AFRIKAANS]",
+            "subject_places": [
+                "Bangladesh"
+            ],
+            "subjects": [
+                "Medical records",
+                "Public health records",
+                "Forms management",
+                "Vital statistics",
+                "Evaluation",
+                "Vital Statistics"
+            ],
+            "key": "/works/OL19383382W",
+            "title": "Assessment of the record-keeping and reporting system of Bangladesh Health and Population Sector Programme in the community",
             "authors": [
                 {
                     "type": {
                         "key": "/type/author_role"
                     },
                     "author": {
-                        "key": "/authors/OL23919A"
+                        "key": "/authors/OL645A"
                     }
                 }
             ],
-            "key": "/works/OL42536701W",
-            "latest_revision": 2,
-            "revision": 2,
-            "created": {
-                "type": "/type/datetime",
-                "value": "2025-02-17T00:20:06.447868"
-            },
-            "last_modified": {
-                "type": "/type/datetime",
-                "value": "2025-06-21T18:08:44.104415"
-            }
-        },
-        {
             "type": {
                 "key": "/type/work"
             },
-            "title": "Harry Potter",
-            "authors": [
-                {
-                    "type": {
-                        "key": "/type/author_role"
-                    },
-                    "author": {
-                        "key": "/authors/OL23919A"
-                    }
-                }
-            ],
-            "key": "/works/OL43348009W",
-            "latest_revision": 2,
-            "revision": 2,
-            "created": {
-                "type": "/type/datetime",
-                "value": "2025-05-12T12:29:55.263843"
-            },
-            "last_modified": {
-                "type": "/type/datetime",
-                "value": "2025-06-21T18:08:44.104415"
-            }
-        },
-        {
-            "title": "Harry Potter en de vuurbeker",
-            "authors": [
-                {
-                    "author": {
-                        "key": "/authors/OL23919A"
-                    },
-                    "type": {
-                        "key": "/type/author_role"
-                    }
-                }
-            ],
-            "key": "/works/OL42600254W",
-            "type": {
-                "key": "/type/work"
+            "description": {
+                "type": "/type/text",
+                "value": "With reference to Bangladesh."
             },
             "latest_revision": 3,
             "revision": 3,
             "created": {
                 "type": "/type/datetime",
-                "value": "2025-02-24T05:35:51.476653"
+                "value": "2019-04-02T06:39:50.890590"
             },
             "last_modified": {
                 "type": "/type/datetime",
-                "value": "2025-06-09T12:31:28.127407"
+                "value": "2022-12-29T19:34:22.090583"
             }
         },
         {
             "type": {
                 "key": "/type/work"
             },
-            "title": "Harry Potter and The Chamber of Secrets 2",
+            "title": "Nad\u012b o n\u0101r\u012b",
             "authors": [
                 {
                     "type": {
                         "key": "/type/author_role"
                     },
                     "author": {
-                        "key": "/authors/OL23919A"
+                        "key": "/authors/OL645A"
                     }
                 }
             ],
-            "key": "/works/OL43319375W",
-            "latest_revision": 2,
-            "revision": 2,
+            "key": "/works/OL32616056W",
+            "latest_revision": 1,
+            "revision": 1,
             "created": {
                 "type": "/type/datetime",
-                "value": "2025-05-10T23:19:30.587502"
+                "value": "2022-12-18T17:57:30.270157"
             },
             "last_modified": {
                 "type": "/type/datetime",
-                "value": "2025-06-09T12:31:28.127407"
-            }
-        },
-        {
-            "type": {
-                "key": "/type/work"
-            },
-            "title": "Harry potter ",
-            "authors": [
-                {
-                    "type": {
-                        "key": "/type/author_role"
-                    },
-                    "author": {
-                        "key": "/authors/OL23919A"
-                    }
-                }
-            ],
-            "key": "/works/OL43069969W",
-            "latest_revision": 2,
-            "revision": 2,
-            "created": {
-                "type": "/type/datetime",
-                "value": "2025-04-27T10:06:37.876929"
-            },
-            "last_modified": {
-                "type": "/type/datetime",
-                "value": "2025-06-09T12:31:28.127407"
-            }
-        },
-        {
-            "type": {
-                "key": "/type/work"
-            },
-            "title": "Harry Potter og Ildbegeret (Norwegian Edition)",
-            "authors": [
-                {
-                    "type": {
-                        "key": "/type/author_role"
-                    },
-                    "author": {
-                        "key": "/authors/OL23919A"
-                    }
-                }
-            ],
-            "key": "/works/OL41905393W",
-            "latest_revision": 2,
-            "revision": 2,
-            "created": {
-                "type": "/type/datetime",
-                "value": "2024-10-06T07:13:26.729829"
-            },
-            "last_modified": {
-                "type": "/type/datetime",
-                "value": "2025-06-09T12:31:28.127407"
-            }
-        },
-        {
-            "type": {
-                "key": "/type/work"
-            },
-            "title": "Harry Potter and The Prisoner of Azkaban 3",
-            "authors": [
-                {
-                    "type": {
-                        "key": "/type/author_role"
-                    },
-                    "author": {
-                        "key": "/authors/OL23919A"
-                    }
-                }
-            ],
-            "key": "/works/OL43319202W",
-            "latest_revision": 2,
-            "revision": 2,
-            "created": {
-                "type": "/type/datetime",
-                "value": "2025-05-10T23:17:42.494674"
-            },
-            "last_modified": {
-                "type": "/type/datetime",
-                "value": "2025-06-09T12:31:28.127407"
-            }
-        },
-        {
-            "type": {
-                "key": "/type/work"
-            },
-            "title": "Harry Potter And The Philosopher's Stone 1",
-            "authors": [
-                {
-                    "type": {
-                        "key": "/type/author_role"
-                    },
-                    "author": {
-                        "key": "/authors/OL23919A"
-                    }
-                }
-            ],
-            "key": "/works/OL43319372W",
-            "latest_revision": 2,
-            "revision": 2,
-            "created": {
-                "type": "/type/datetime",
-                "value": "2025-05-10T23:19:26.677527"
-            },
-            "last_modified": {
-                "type": "/type/datetime",
-                "value": "2025-06-09T12:31:28.127407"
-            }
-        },
-        {
-            "type": {
-                "key": "/type/work"
-            },
-            "title": "Harry Potter e la camera dei segreti. Ediz. illustrata",
-            "key": "/works/OL27733838W",
-            "covers": [
-                15091532
-            ],
-            "authors": [
-                {
-                    "type": {
-                        "key": "/type/author_role"
-                    },
-                    "author": {
-                        "key": "/authors/OL23919A"
-                    }
-                }
-            ],
-            "latest_revision": 4,
-            "revision": 4,
-            "created": {
-                "type": "/type/datetime",
-                "value": "2022-05-06T13:35:03.378374"
-            },
-            "last_modified": {
-                "type": "/type/datetime",
-                "value": "2025-06-09T12:31:28.127407"
-            }
-        },
-        {
-            "description": {
-                "type": "/type/text",
-                "value": "Harry Potter is leaving Privet Drive for the last time. But as he climbs into the sidecar of Hagrid\u2019s motorbike and they take to the skies, he knows Lord Voldemort and the Death Eaters will not be far behind.\r\n\r\nThe protective charm that has kept him safe until now is broken. But the Dark Lord is breathing fear into everything he loves. And he knows he can\u2019t keep hiding.\r\n\r\nTo stop Voldemort, Harry knows he must find the remaining Horcruxes and destroy them.\r\n\r\nHe will have to face his enemy in one final battle.\r\n\r\n([source][1])\r\n\r\n\r\n----------\r\nSee also:\r\n\r\n - [Harry Potter and the Deathly Hallows: 2/2][2]\r\n\r\n\r\n  [1]: https://www.jkrowling.com/book/harry-potter-deathly-hallows/\r\n  [2]: https://openlibrary.org/works/OL17922343W/Harry_Potter_and_the_Deathly_Hallows_Chapters_20-36"
-            },
-            "links": [
-                {
-                    "url": "https://www.jkrowling.com/book/harry-potter-deathly-hallows/",
-                    "title": "Harry Potter and the Deathly Hallows - J.K. Rowling (jkrowling.com)",
-                    "type": {
-                        "key": "/type/link"
-                    }
-                },
-                {
-                    "title": "Harry Potter and the Deathly Hallows - Wikipedia",
-                    "url": "https://en.wikipedia.org/wiki/Harry_Potter_and_the_Deathly_Hallows",
-                    "type": {
-                        "key": "/type/link"
-                    }
-                },
-                {
-                    "title": "Harry Potter and the Deathly Hallows by JK Rowling review \u2013 a send-off fit for a wizard (theguardian.com)",
-                    "url": "https://www.theguardian.com/books/2007/jul/28/booksforchildrenandteenagers.jkjoannekathleenrowling",
-                    "type": {
-                        "key": "/type/link"
-                    }
-                },
-                {
-                    "url": "https://www.nytimes.com/2007/08/12/books/review/Hitchens-t.html",
-                    "title": "The Boy Who Lived (nytimes.com)",
-                    "type": {
-                        "key": "/type/link"
-                    }
-                },
-                {
-                    "title": "News JK Rowling reveals the heartbreaking inspiration for the Deathly Hallows symbol in Harry Potter (independent.co.uk)",
-                    "url": "https://www.independent.co.uk/arts-entertainment/films/news/jk-rowling-deathly-hallows-symbol-harry-potter-inspiration-mason-a8025626.html",
-                    "type": {
-                        "key": "/type/link"
-                    }
-                },
-                {
-                    "url": "http://www.nytimes.com/2007/07/19/books/19potter.html",
-                    "title": "New York Times review",
-                    "type": {
-                        "key": "/type/link"
-                    }
-                },
-                {
-                    "url": "http://query.nytimes.com/gst/fullpage.html?res=9A02E6DF1630F931A2575BC0A9619C8B63",
-                    "title": "New York Times review",
-                    "type": {
-                        "key": "/type/link"
-                    }
-                },
-                {
-                    "url": "http://www.nytimes.com/2007/08/12/books/review/Hitchens-t.html",
-                    "title": "New York Times review",
-                    "type": {
-                        "key": "/type/link"
-                    }
-                }
-            ],
-            "title": "Harry Potter and the Deathly Hallows",
-            "covers": [
-                10110415,
-                10082428,
-                10500170,
-                -1,
-                11271656,
-                11271658,
-                11287615,
-                11759817,
-                12376638,
-                10542713,
-                10542714,
-                10705861,
-                10721143,
-                12293172,
-                12296953,
-                12366186,
-                12369748,
-                12389355,
-                14473685
-            ],
-            "subject_places": [
-                "England",
-                "Scottland",
-                "Ireland",
-                "Wales",
-                "Hogwarts School of Witchcraft and Wizardry",
-                "Godric's Hollow",
-                "london",
-                "Hogwarts School of Witchcraft and Wizardry (Imaginary place)"
-            ],
-            "subjects": [
-                "the Elder Wand",
-                "children's books",
-                "dementors",
-                "good and evil",
-                "Juvenile literature",
-                "Juvenile works",
-                "Death",
-                "Fiction",
-                "Wizards",
-                "New York Times bestseller",
-                "nyt:series_books=2006-09-16",
-                "Schools",
-                "Magic",
-                "Magia",
-                "Ficci\u00f3n juvenil",
-                "Novela fant\u00e1stica",
-                "Magos",
-                "Escuelas",
-                "Juvenile fiction",
-                "dark magic",
-                "Coming of age",
-                "heroics",
-                "fantasy",
-                "action",
-                "adventure",
-                "orphans",
-                "foster homes",
-                "young adult",
-                "children",
-                "children's literature",
-                "boarding school",
-                "wizardry",
-                "mystery",
-                "kids",
-                "witchcraft",
-                "war",
-                "Magie",
-                "Magiciens",
-                "Roman pour la jeunesse",
-                "Mort",
-                "Sorcellerie",
-                "Romans, nouvelles, etc. pour la jeunesse",
-                "Internats",
-                "Fantasy fiction",
-                "Roman fantastique",
-                "Ecoles",
-                "Boarding schools",
-                "Sorciers",
-                "Hogwarts School of Witchcraft and Wizardry (Imaginary place) -- Juvenile fiction",
-                "Hogwarts School of Witchcraft and Wizardry (Imaginary place)",
-                "Harry Potter (Fictitious character)",
-                "Potter, Harry (Fictitious character) -- Juvenile fiction",
-                "Wizards -- Fiction",
-                "Magic -- Fiction",
-                "Schools -- Fiction",
-                "Magos -- Ficci\u00f3n juvenil",
-                "Magia -- Ficci\u00f3n juvenil",
-                "Escuelas -- Ficci\u00f3n juvenil",
-                "England -- Fiction",
-                "Inglaterra -- Ficci\u00f3n juvenil",
-                "Hermione Granger (Fictitious character)",
-                "Hogwarts School of Witchcraft and Wizardry (Imaginary organization)",
-                "Ron Weasley (Fictitious character)",
-                "School stories",
-                "Family",
-                "Orphans & Foster Homes",
-                "Social Themes",
-                "Fantasy & Magic",
-                "Fictional Works",
-                "Bildungsromans",
-                "Witches",
-                "Friendship",
-                "Reading Level-Grade 9",
-                "Reading Level-Grade 11",
-                "Reading Level-Grade 10",
-                "Reading Level-Grade 12",
-                "Potter, harry (fictitious character), fiction",
-                "Wizards, fiction",
-                "Hogwarts school of witchcraft and wizardry (imaginary organization), fiction",
-                "England, fiction",
-                "Schools, fiction",
-                "Magic, fiction",
-                "Children's fiction",
-                "English literature",
-                "Fiction, fantasy, general",
-                "M\u00e9chancet\u00e9",
-                "Qu\u00eate (Litt\u00e9rature)",
-                "Potter, Harry (Personnage fictif)",
-                "Large type books",
-                "New York Times reviewed",
-                "Poudlard (Organisation imaginaire)",
-                "\u00c9coles",
-                "Illusion (performing art)",
-                "Schools (institutions)",
-                "Schools (buildings)",
-                "Child and youth fiction",
-                "death eater",
-                "ron",
-                "Severus Snape (Fictitious character)"
-            ],
-            "subject_people": [
-                "Harry Potter",
-                "Gregorovitch",
-                "Greyback",
-                "Gellert Grindelwald",
-                "Griphook",
-                "Godric Gryffindor",
-                "Hagrid",
-                "Kreacher",
-                "Lord Voldemort",
-                "Luna Lovegood",
-                "Lupin",
-                "Muggle-borns",
-                "Neville Longbottom",
-                "Severus Snape",
-                "Fred Weasley",
-                "Ginny Weasley",
-                "Doge",
-                "Draco Malfoy",
-                "Ariana Dumbledore",
-                "Bathilda Bagshot",
-                "Bellatrix Lestrange",
-                "Mrs. Cattermole",
-                "The Dark Lord",
-                "Death Eaters",
-                "Aberforth",
-                "Voldemort",
-                "Albus Dumbledore",
-                "Ron Weasley",
-                "Hermione Granger",
-                "The Weasleys",
-                "The Potters",
-                "Hermine Granger",
-                "Ron Weasly",
-                "Harry Potter (Fictitious character)"
-            ],
-            "key": "/works/OL82586W",
-            "authors": [
-                {
-                    "author": {
-                        "key": "/authors/OL23919A"
-                    },
-                    "type": {
-                        "key": "/type/author_role"
-                    }
-                }
-            ],
-            "excerpts": [
-                {
-                    "comment": "first sentence",
-                    "author": {
-                        "key": "/people/seabelis"
-                    },
-                    "excerpt": "The two men appeared out of nowhere, a few yards apart in the narrow, moonlit lane."
-                }
-            ],
-            "type": {
-                "key": "/type/work"
-            },
-            "subject_times": [
-                "1987-"
-            ],
-            "latest_revision": 112,
-            "revision": 112,
-            "created": {
-                "type": "/type/datetime",
-                "value": "2009-10-17T07:07:29.461716"
-            },
-            "last_modified": {
-                "type": "/type/datetime",
-                "value": "2025-06-09T13:13:06.328595"
-            }
-        },
-        {
-            "title": "Hogwarts Library",
-            "covers": [
-                8761963,
-                10862585,
-                13229354
-            ],
-            "key": "/works/OL19347126W",
-            "authors": [
-                {
-                    "author": {
-                        "key": "/authors/OL23919A"
-                    },
-                    "type": {
-                        "key": "/type/author_role"
-                    }
-                },
-                {
-                    "type": {
-                        "key": "/type/author_role"
-                    },
-                    "author": {
-                        "key": "/authors/OL7897887A"
-                    }
-                },
-                {
-                    "type": {
-                        "key": "/type/author_role"
-                    },
-                    "author": {
-                        "key": "/authors/OL1430652A"
-                    }
-                },
-                {
-                    "type": {
-                        "key": "/type/author_role"
-                    },
-                    "author": {
-                        "key": "/authors/OL1476146A"
-                    }
-                }
-            ],
-            "type": {
-                "key": "/type/work"
-            },
-            "subjects": [
-                "English Fantasy fiction",
-                "Children's stories, English",
-                "Child and youth fiction"
-            ],
-            "subtitle": "The Complete Set",
-            "latest_revision": 13,
-            "revision": 13,
-            "created": {
-                "type": "/type/datetime",
-                "value": "2019-03-24T10:43:00.135646"
-            },
-            "last_modified": {
-                "type": "/type/datetime",
-                "value": "2025-06-03T18:18:39.974850"
-            }
-        },
-        {
-            "description": "A fun and informative guide to all you could ever wish to know!",
-            "key": "/works/OL19721157W",
-            "authors": [
-                {
-                    "type": {
-                        "key": "/type/author_role"
-                    },
-                    "author": {
-                        "key": "/authors/OL23919A"
-                    }
-                },
-                {
-                    "type": {
-                        "key": "/type/author_role"
-                    },
-                    "author": {
-                        "key": "/authors/OL80356A"
-                    }
-                },
-                {
-                    "type": {
-                        "key": "/type/author_role"
-                    },
-                    "author": {
-                        "key": "/authors/OL8350384A"
-                    }
-                }
-            ],
-            "title": "Harry Potter. A History of Magic",
-            "subjects": [
-                "Juvenile literature",
-                "Potter, harry (fictitious character)",
-                "Magic, history",
-                "Rowling, j. k., 1965-, juvenile literature",
-                "Rowling, j. k., 1965-",
-                "Curiosities and wonders, juvenile literature",
-                "Curiosities and wonders",
-                "Fantasy fiction, history and criticism",
-                "Magic",
-                "Exhibitions",
-                "Harry Potter films",
-                "British Library",
-                "History",
-                "Wizards in literature",
-                "Magic in literature",
-                "Miscellanea",
-                "Rowling, J. K. Harry Potter series -- History -- Exhibitions -- Juvenile literature",
-                "Rowling, J. K. -- History",
-                "Harry Potter series (Rowling, J. K.)",
-                "JUVENILE NONFICTION / Curiosities & Wonders",
-                "JUVENILE NONFICTION / History",
-                "Juvenile Nonfiction -- Curiosities & Wonders",
-                "Juvenile Nonfiction -- History",
-                "Children's nonfiction",
-                "Exhibition catalogs",
-                "Juvenile works",
-                "Juvenile Nonfiction",
-                "Curiosities & Wonders"
-            ],
-            "subject_people": [
-                "J. K. Rowling"
-            ],
-            "type": {
-                "key": "/type/work"
-            },
-            "covers": [
-                10515163,
-                15091554,
-                10417798
-            ],
-            "latest_revision": 7,
-            "revision": 7,
-            "created": {
-                "type": "/type/datetime",
-                "value": "2019-05-24T00:08:50.430661"
-            },
-            "last_modified": {
-                "type": "/type/datetime",
-                "value": "2025-06-03T18:14:20.503291"
-            }
-        },
-        {
-            "type": {
-                "key": "/type/work"
-            },
-            "title": "De Doldwaze Avondturen Van Liefjepiefje en Willebil",
-            "authors": [
-                {
-                    "type": {
-                        "key": "/type/author_role"
-                    },
-                    "author": {
-                        "key": "/authors/OL14303875A"
-                    }
-                },
-                {
-                    "type": {
-                        "key": "/type/author_role"
-                    },
-                    "author": {
-                        "key": "/authors/OL7585488A"
-                    }
-                },
-                {
-                    "type": {
-                        "key": "/type/author_role"
-                    },
-                    "author": {
-                        "key": "/authors/OL23919A"
-                    }
-                }
-            ],
-            "key": "/works/OL39770275W",
-            "latest_revision": 2,
-            "revision": 2,
-            "created": {
-                "type": "/type/datetime",
-                "value": "2024-09-19T10:16:41.394148"
-            },
-            "last_modified": {
-                "type": "/type/datetime",
-                "value": "2025-06-03T17:49:08.672784"
-            }
-        },
-        {
-            "type": {
-                "key": "/type/work"
-            },
-            "title": "Harry Potter : el Misterio Del Pr\u00edncipe",
-            "authors": [
-                {
-                    "type": {
-                        "key": "/type/author_role"
-                    },
-                    "author": {
-                        "key": "/authors/OL14476037A"
-                    }
-                },
-                {
-                    "type": {
-                        "key": "/type/author_role"
-                    },
-                    "author": {
-                        "key": "/authors/OL23919A"
-                    }
-                }
-            ],
-            "key": "/works/OL40423071W",
-            "latest_revision": 2,
-            "revision": 2,
-            "created": {
-                "type": "/type/datetime",
-                "value": "2024-09-24T11:59:18.616662"
-            },
-            "last_modified": {
-                "type": "/type/datetime",
-                "value": "2025-06-03T17:49:08.672784"
-            }
-        },
-        {
-            "type": {
-                "key": "/type/work"
-            },
-            "title": "Pottermore",
-            "authors": [
-                {
-                    "type": {
-                        "key": "/type/author_role"
-                    },
-                    "author": {
-                        "key": "/authors/OL23919A"
-                    }
-                },
-                {
-                    "type": {
-                        "key": "/type/author_role"
-                    },
-                    "author": {
-                        "key": "/authors/OL2081568A"
-                    }
-                }
-            ],
-            "key": "/works/OL41251055W",
-            "latest_revision": 2,
-            "revision": 2,
-            "created": {
-                "type": "/type/datetime",
-                "value": "2024-09-30T22:59:28.596363"
-            },
-            "last_modified": {
-                "type": "/type/datetime",
-                "value": "2025-06-03T17:49:08.672784"
+                "value": "2022-12-18T17:57:30.270157"
             }
         }
     ]

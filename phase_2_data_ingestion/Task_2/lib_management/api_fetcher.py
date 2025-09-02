@@ -98,7 +98,8 @@ def main():
                 logging.info(f"Book already exists, skipping: {title}")
                 continue
 
-            book_schema = BookSchema(
+            else:
+                book_schema = BookSchema(
                 title=title,
                 isbn=isbn,
                 publication_date=publication_date,
